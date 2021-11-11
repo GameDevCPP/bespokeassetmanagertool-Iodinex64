@@ -12,5 +12,6 @@ int main()
 {
     RenderWindow window{ {1280, 720}, "TGUI window with SFML" };
     GuiSFML gui{ window };
+
     gui.mainLoop();
 }
