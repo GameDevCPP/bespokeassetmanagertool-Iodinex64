@@ -1,45 +1,99 @@
 ﻿  Main.cpp
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(57,67): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(54,74): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(57,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(54,63): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(58,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(55,80): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(58,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(55,69): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(59,79): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(56,86): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(59,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(56,69): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(60,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(57,80): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(60,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(57,63): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(63,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(60,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(60,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(61,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(61,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(62,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(62,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(63,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -57,59 +111,4 @@ D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(63,5
           [
               T=float
           ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(64,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(64,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(65,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(65,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(66,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\TileMap.h(66,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-  LINK : D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\Debug\tilemap builder.exe not found or not built by the last incremental link; performing full link
   tilemap builder.vcxproj -> D:\Github Repos\bespokeassetmanagertool-Iodinex64\tilemap builder\Debug\tilemap builder.exe

@@ -1,35 +1,32 @@
 #include <SFML/Graphics.hpp>
-#include <iostream>
-#include "json.hpp"
-#include <fstream>
 
 
-//suitable data structure
 struct mapData
 {
-    mapData(const std::string& tileset, sf::Vector2u tileSize, const int* tiles, unsigned int width, unsigned int height) :name_(tileset), tileSize_(tileSize), width_(width), height_(height), tiles_(tiles)
-    {
+  mapData(const std::string& tileset, sf::Vector2u tileSize,const int* tiles, unsigned int width, unsigned int height):name_(tileset), tileSize_(tileSize),width_(width),height_(height),tiles_(tiles)
+  {
 
-    }
-    const std::string name_;
-    sf::Vector2u tileSize_;
-    const int* tiles_;
-    unsigned int width_;
-    unsigned int height_;
+  }
+  const std::string name_;
+  sf::Vector2u tileSize_;
+ const  int* tiles_;
+  unsigned int width_;
+  unsigned int height_;
 
 };
+
 
 class TileMap : public sf::Drawable, public sf::Transformable
 {
 public:
-    /*  bool load(const std::string& tileset, sf::Vector2f tileSize, std::vector tiles, unsigned int width, unsigned int height)
-      {}
-  */
+  /*  bool load(const std::string& tileset, sf::Vector2f tileSize, std::vector tiles, unsigned int width, unsigned int height)
+    
+*/
     bool load(mapData mapData)
     {
-        return this->load(mapData.name_, mapData.tileSize_, mapData.tiles_, mapData.width_, mapData.height_);
+       return this->load(mapData.name_, mapData.tileSize_, mapData.tiles_, mapData.width_, mapData.height_);
     }
-    bool load(const std::string& tileset, sf::Vector2u tileSize, const int* tiles, unsigned int width, unsigned int height)
+    bool load(const std::string& tileset, sf::Vector2u tileSize, const int* tiles, unsigned int width, unsigned int height,int offset = 0)
     {
         // load the tileset texture
         if (!m_tileset.loadFromFile(tileset))
@@ -54,10 +51,10 @@ public:
                 sf::Vertex* quad = &m_vertices[(i + j * width) * 4];
 
                 // define its 4 corners
-                quad[0].position = sf::Vector2f(i * tileSize.x, j * tileSize.y);
-                quad[1].position = sf::Vector2f((i + 1) * tileSize.x, j * tileSize.y);
-                quad[2].position = sf::Vector2f((i + 1) * tileSize.x, (j + 1) * tileSize.y);
-                quad[3].position = sf::Vector2f(i * tileSize.x, (j + 1) * tileSize.y);
+                quad[0].position = sf::Vector2f(i * tileSize.x+offset, j * tileSize.y);
+                quad[1].position = sf::Vector2f((i + 1) * tileSize.x+offset, j * tileSize.y);
+                quad[2].position = sf::Vector2f((i + 1) * tileSize.x+offset, (j + 1) * tileSize.y);
+                quad[3].position = sf::Vector2f(i * tileSize.x+offset, (j + 1) * tileSize.y);
 
                 // define its 4 texture coordinates
                 quad[0].texCoords = sf::Vector2f(tu * tileSize.x, tv * tileSize.y);
@@ -68,7 +65,6 @@ public:
 
         return true;
     }
-
 private:
 
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const
